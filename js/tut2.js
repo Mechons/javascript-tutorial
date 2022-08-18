@@ -97,8 +97,65 @@
 //     .then(function (flightData) { return bookHotel(flightData) })
 //     .then(function (cumulativeData) { console.log(" Total is " + cumulativeData) })
 //     .catch(e => console.log(e.message))
-var str ="ABCDE1234F";
-var pattern = new RegExp("/^[A-Z]{5}[\d]{4}[A-Z]?$/");
+// var str ="ABCDE1234F";
+// var pattern = new RegExp("/^[A-Z]{5}[\d]{4}[A-Z]?$/");
 
 
-    str.match(pattern);
+//     str.match(pattern);
+// let name = "sam"
+// function demo () {
+//     name += "mark"
+
+// }
+// console.log(name);
+
+// const r = []
+// function check (par1,...par2) {
+//     return r.push(par1,par2)
+// }
+// console.log(check("Hello","world"));
+// let ar = new Array([1,2,3])
+// ar.delete(1)
+// console.log(ar)
+// var c = 5
+// var c = 6
+// console.log(c);
+// let empId = "I1005"
+// let employee = {
+//     empId,
+//     getEmpDetails() {
+//         return this.empId
+//     },
+//     getDetails() {
+//         setInterval( ()=> {
+//             return this.empId
+//         },1000)
+//     }
+    
+// }
+// console.log(employee.getEmpDetails());
+// console.log(employee.getDetails());
+// 
+// let state = []
+// state.push(['rihana', {
+//     empid : "hiw",
+//     city : "shfj",
+//     age : 46
+// }])
+// console.log(...state);
+let emp = [
+    {
+        id : "wegh",name: "hef"
+    },
+    {
+        id : "wegh",name: "hef"
+    },
+    {
+        id : "wegh",name: "hef"
+    }
+]
+console.log(`empid ${emp[0].id} empname : ${emp[0].id}`);
+console.log(typeof(emp));
+let my = undefined
+// my = 27
+console.log(my);
