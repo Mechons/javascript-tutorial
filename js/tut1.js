@@ -2,8 +2,8 @@
 // var name='harry'
 // console.log('data type is ' +typeof(name))
 
-// let nullvar=null;
-// console.log('data type is ' +typeof(nullvar))
+let nullvar=null;
+console.log('data type is ' +typeof(nullvar))
 
 // myarr=[1,2,3,4];
 
@@ -27,7 +27,7 @@
 //this refer to the object which is calling the function....
 console.log(this); // show window scope
 this.garage = 'this is garage' // garage is global property
-console.log(window.garage);
+// console.log(window.garage);
 
 // This inside object
 const obj = {
@@ -42,7 +42,7 @@ let person = {
     age: 28,
     greet1 : function() {
         console.log('Greet1 age',this.age);
-        console.log('Greet1 ',this); // refer to person object as it is greet function is called by person object
+        console.log('Greet1 ',this); // refer to person object as it is greet1 function is called by person object
         function greet2() {
             console.log('Greet2 age ',this.age);
             console.log('Greet2 ',this); // refer to window object greet2 is called inside greet1 not by person object

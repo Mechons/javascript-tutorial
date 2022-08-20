@@ -79,35 +79,19 @@
 // getTrip(check);
 // //check(value);// undefined
 
-// function bookFlight(airline) {
-//     return new Promise(function (resolve, reject) {
-//         if (airline == "AirIndia") {
-//             setTimeout(resolve(5600), 2000);
-//         } else {
-//             reject(Error("Flight can not be booked"))
-//         }
-//     })
-// }
-// function bookHotel(flightPrice) {
-//     return new Promise(function (resolve) {
-//         setTimeout(resolve(7000 + flightPrice), 1000);
-//     })
-// }
-// bookFlight("AirIndia")
-//     .then(function (flightData) { return bookHotel(flightData) })
-//     .then(function (cumulativeData) { console.log(" Total is " + cumulativeData) })
-//     .catch(e => console.log(e.message))
+// 
 // var str ="ABCDE1234F";
 // var pattern = new RegExp("/^[A-Z]{5}[\d]{4}[A-Z]?$/");
 
 
 //     str.match(pattern);
-// let name = "sam"
-// function demo () {
-//     name += "mark"
 
-// }
-// console.log(name);
+let name = "sam"
+function demo () {
+    name += "mark"
+
+}
+console.log(name);
 
 // const r = []
 // function check (par1,...par2) {
@@ -136,13 +120,14 @@
 // console.log(employee.getEmpDetails());
 // console.log(employee.getDetails());
 // 
-// let state = []
-// state.push(['rihana', {
-//     empid : "hiw",
-//     city : "shfj",
-//     age : 46
-// }])
-// console.log(...state);
+let state = []
+state.push(['rihana', {
+    empid : "hiw",
+    city : "shfj",
+    age : 46
+}])
+console.log(...state);
+console.log(typeof(state));
 let emp = [
     {
         id : "wegh",name: "hef"
@@ -156,6 +141,6 @@ let emp = [
 ]
 console.log(`empid ${emp[0].id} empname : ${emp[0].id}`);
 console.log(typeof(emp));
-let my = undefined
-// my = 27
-console.log(my);
+// let my = undefined
+// // my = 27
+// console.log(my);
