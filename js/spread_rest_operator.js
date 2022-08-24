@@ -67,6 +67,11 @@ function fun(a,b,...c){
 	console.log(c.indexOf('Lionel')); //0
 }
 fun('Mukul','Latiyan','Lionel','Messi','Barcelona');
+//Destrucing using rest operator
+let [a,...b] = [a,b,c,d]
+console.log(a); //1
+console.log(b); // [2,3,4,5] Rest operator return Array
+
 
 
 

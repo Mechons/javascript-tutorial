@@ -1,26 +1,28 @@
 // console.log('hello')
-// var name='harry'
-// console.log('data type is ' +typeof(name))
+//var name=String(harry) // harry not defined
+let name = String('harry') // String
+name = 43 // Number
+console.log('data type is ' +typeof(name))
 
 let nullvar=null;
-console.log('data type is ' +typeof(nullvar))
+console.log('data type is ' +typeof(nullvar)) // object
 
-// myarr=[1,2,3,4];
+myarr=[1,2,3,4];
 
-// console.log('data type is ' +typeof(myarr))
+console.log('data type is ' +typeof(myarr)) // object
 
-//  let marks={
-//      harry:34,
-//      ishank:56,
-//      rohan:76
-//  }
+ let marks={
+     harry:34,
+     ishank:56,
+     rohan:76
+ }
 
-// console.log(marks)
+console.log(marks)
 
-// function findName() {
+function findName() {
     
-// }
-// console.log(typeof findName)
+}
+console.log('find name ',typeof findName) // Function
 
 // THIS Keyword
 // This in Global scope

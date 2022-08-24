@@ -25,16 +25,21 @@ console.log(empName); // Shaan
 console.log(location); // Bangalore
 
 //For in loop
-let colors = ["Red", "Orange", "Green"];
+let colors1 = ["Red", "Orange", "Green"];
 // iterates over array elements
-for (let color of colors) {
-    console.log(color);//Red
+for (let color of colors1) {
+    console.log('for loop ',color);//Red
     //Orange
     //Green
     
 }
-
-//Push
+// for (let color of colors1[1]) {
+//     console.log('for loop ',color[1]);//Red Output undefined 
+//     //Orange
+//     //Green
+    
+// }
+//Push return the new lenght of array
 let myArray = ["Android", "iOS", "Windows"];
 
 myArray.push("Linux");
@@ -43,10 +48,10 @@ console.log(myArray);
 
 // ["Android","iOS","Windows","Linux"]
 
-//POP
+//POP return the removed elment
 let myArray1 = ["Android", "iOS", "Windows"];
 
-myArray1.POP();
+myArray1.POP;
 
 console.log(myArray1);
 
@@ -79,7 +84,7 @@ console.log(myArray4);
 
 // ["Android","Linux", "iOS", "Windows"]
 
-//SLICE
+//SLICE end value is exclude
 let myArray5=["Android","iOS","Windows"];
 
 console.log(myArray5.slice(1,3));
@@ -101,7 +106,16 @@ let myArray8 = ["Android", "iOS", "Windows", "Linux"];
 
 let result = myArray8.find(element => element.length > 5);
 
+
 console.log(result); //Android 
+
+//INCLUDES
+// let output = []
+// var comp = (...part1) => {
+//     output = [...part1]
+//     return output.filter((a) => a.includes('Script'))
+// }
+// console.log(comp('ES6','JavaScript','CoffeScript' ,'React'));
 
 //FILTER
 let myArray9 = ["Android", "iOS", "Windows", "Linux"];
@@ -184,3 +198,7 @@ console.log(numArr3.reduce(
 accumulator + currentVal,5)); // 5 IN THE INTIAL VALUE 
 
 // 15
+
+// let numArr = [1, 2, 3, 4];
+// let[,a]=numArr
+// console.log('a',a); // OUTPUT 2

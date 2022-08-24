@@ -13,3 +13,10 @@ console.log(parseFloat("10 20 30"));   //10 The method stops parsing when it enc
 
 console.log(parseFloat("10.50 years")); //10.50 It returns NaN when the first non-whitespace character cannot be converted to number.
 console.log(parseFloat(" year 10.50 years")); //NaN (Not a Number)
+
+
+let name = undefined
+console.log(typeof(name)); // undefined
+
+let data = null
+console.log(typeof(data)); // object

@@ -11,11 +11,11 @@ function* getEmployee() {
     console.log('the function has ended');
 }
 
-getEmployee();
+//getEmployee();
 
 const generatorIterator = getEmployee();
 let data = generatorIterator.next();
-console.log(generatorIterator.next().value); 
+console.log(generatorIterator.next()); 
 generatorIterator.next().value; //repeat this line to get subsequent values
 generatorIterator.next().value; //repeat this line to get subsequent values
 generatorIterator.next().value; //repeat this line to get subsequent values

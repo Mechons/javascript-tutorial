@@ -19,7 +19,7 @@
 // console.log("Last line of this js file")
 
 function sayAfter2Seconds(x) {
-	return new Promise(resolve => {
+	return new Promise(() => {
 		setTimeout(() => {
 			resolve(x);
 		}, 2000);
@@ -29,6 +29,7 @@ async function hello() {
 	//wait until the promise returns a value
     console.log('before promise resolved');
 	var x = await sayAfter2Seconds("Hello Async/Await");
+    console.log('promise resolved');
 	return x; //Hello Async/Await
 }
 let a = hello();
