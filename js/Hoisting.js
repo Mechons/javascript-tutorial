@@ -20,3 +20,13 @@ console.log(typeof(name)); // undefined
 
 let data = null
 console.log(typeof(data)); // object
+
+// Temporal Dead Zone
+
+// During merory allocation phase a is assigned to script scope with undefined value 
+// while b is assigned to global scope
+
+// So temporal dead zone is time when let and const is hoisted means assigned memory space till it is intialised 
+console.log(a); // Rfference error can't acces a before intialization
+let a= 10
+var b= 100
